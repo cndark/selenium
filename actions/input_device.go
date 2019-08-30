@@ -12,7 +12,7 @@ type InputDevice struct {
 
 func NewInputDevice(deviceName string) *InputDevice {
 	if deviceName == "" {
-		deviceName = fmt.Sprintf("%s", uuid.Must(uuid.NewV4()))
+		deviceName = fmt.Sprintf("%s", uuid.Must(uuid.NewV4(),nil))
 	}
 	return &InputDevice{
 		name: deviceName,
