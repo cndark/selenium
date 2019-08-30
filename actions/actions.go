@@ -1,7 +1,7 @@
 package actions
 
 import (
-	"github.com/newspack/selenium"
+	"github.com/cndark/selenium"
 	"reflect"
 	"time"
 )
